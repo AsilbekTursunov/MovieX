@@ -1,0 +1,24 @@
+.popular_movies_main_block {
+  .container {
+    .popular_movies_block {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(220px, 1fr));
+    }
+    .get-more {
+      width: 100%;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      button {
+        padding: 0.625rem 1.25rem;
+        background-color: rgba(253, 138, 29, 1);
+        color: #0e1521;
+        font-size: 1rem;
+        font-weight: 500;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}

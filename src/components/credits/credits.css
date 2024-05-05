@@ -1,0 +1,21 @@
+.actor-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.actor-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.actor-name{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.actor-character{
+    font-size: .625rem;
+    color: #999;
+}
