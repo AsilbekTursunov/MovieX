@@ -7,4 +7,5 @@ export { default as PopularMovies } from "./popularmovies/popularmovies"
 export { default as Credits } from "./credits/credits" 
 export { default as RecommendMovies } from "./recommed/recommed" 
 export { default as Officials } from "./official/official" 
+export { default as Spinner } from "./Spinner" 
 

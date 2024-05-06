@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react"
 // import "./homepage.css"
-import { Hero, PopularMovies, TrendMovies } from "../../components"
+import { Hero, PopularMovies, Spinner, TrendMovies } from "../../components"
 import useGetMoviesInfo from "../../services/movies-services"
 const HomePage = () => {
   const [trendmovies, setTrendMovies] = useState([])
@@ -50,7 +50,7 @@ const HomePage = () => {
             <div className=" mt-8">
               <PopularMovies />
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </div>
